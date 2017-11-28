@@ -1,0 +1,20 @@
+{
+    "name": "matok/upload",
+    "type": "project",
+    "autoload": {
+        "psr-4": { "": "src/" },
+        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
+    },
+    "require": {
+        "symfony/symfony": "4.*",
+        "symfony/monolog-bundle": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matej Kuna",
+            "email": "mat.kuna@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
